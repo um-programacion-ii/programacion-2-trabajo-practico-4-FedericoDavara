@@ -4,6 +4,9 @@ import com.tubiblioteca.model.Libro;
 
 import java.util.List;
 
+/**
+ * Interfaz que define los métodos para manejar la lógica de negocio relacionada con los libros.
+ */
 public interface LibroService {
     Libro buscarPorIsbn(String isbn);
     Libro buscarPorId(Long id);

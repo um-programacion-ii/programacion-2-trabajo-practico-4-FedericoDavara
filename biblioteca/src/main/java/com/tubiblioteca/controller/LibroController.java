@@ -9,6 +9,9 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
+/**
+ * Controlador REST para manejar las operaciones relacionadas con los libros.
+ */
 @RestController
 @RequestMapping("/api/libros")
 public class LibroController {

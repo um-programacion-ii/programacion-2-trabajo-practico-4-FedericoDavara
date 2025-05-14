@@ -6,6 +6,10 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 
+
+/**
+ * Clase que representa un préstamo de un libro a un usuario.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

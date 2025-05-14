@@ -5,6 +5,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+/**
+ * Interfaz para manejar las operaciones CRUD de los préstamos en la biblioteca.
+ */
 public interface PrestamoRepository {
     Prestamo save(Prestamo prestamo);
     Optional<Prestamo> findById(Long id);
@@ -12,6 +15,7 @@ public interface PrestamoRepository {
     void deleteById(Long id);
     boolean existsById(Long id);
 
+    // Implementación en memoria para pruebas
     @Repository
     class InMemoryPrestamoRepository implements PrestamoRepository {
         private final Map<Long, Prestamo> prestamos = new HashMap<>();

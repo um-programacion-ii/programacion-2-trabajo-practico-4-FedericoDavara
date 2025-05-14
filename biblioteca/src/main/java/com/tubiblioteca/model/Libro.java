@@ -4,6 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * Clase que representa un libro en la biblioteca.
+ */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

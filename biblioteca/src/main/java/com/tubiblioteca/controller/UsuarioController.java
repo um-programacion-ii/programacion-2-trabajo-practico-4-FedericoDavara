@@ -9,6 +9,9 @@ import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
+/**
+ * Controlador REST para manejar las operaciones relacionadas con los usuarios.
+ */
 @RestController
 @RequestMapping("/api/usuarios")
 public class UsuarioController {

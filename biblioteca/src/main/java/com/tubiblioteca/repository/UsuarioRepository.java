@@ -5,6 +5,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+/**
+ * Interfaz para manejar las operaciones CRUD de los usuarios en la biblioteca.
+ */
 public interface UsuarioRepository {
     Usuario save(Usuario usuario);
     Optional<Usuario> findById(Long id);
@@ -13,6 +16,7 @@ public interface UsuarioRepository {
     void deleteById(Long id);
     boolean existsById(Long id);
 
+    // Implementación en memoria para pruebas
     @Repository
     class InMemoryUsuarioRepository implements UsuarioRepository {
         private final Map<Long, Usuario> usuarios = new HashMap<>();

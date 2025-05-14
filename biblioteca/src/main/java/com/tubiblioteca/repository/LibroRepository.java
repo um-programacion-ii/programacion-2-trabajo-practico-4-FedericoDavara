@@ -5,6 +5,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
+/**
+ * Interfaz para manejar las operaciones CRUD de los libros en la biblioteca.
+ */
 public interface LibroRepository {
     Libro save(Libro libro);
     Optional<Libro> findById(Long id);
@@ -13,6 +16,7 @@ public interface LibroRepository {
     void deleteById(Long id);
     boolean existsById(Long id);
 
+    // Implementación en memoria para pruebas
     @Repository
     class InMemoryLibroRepository implements LibroRepository {
         private final Map<Long, Libro> libros = new HashMap<>();

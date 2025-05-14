@@ -127,6 +127,7 @@ Desarrollar un sistema de gestión de biblioteca utilizando Spring Framework, im
 1. Clonar el repositorio:
 2. Importar en tu IDE favorito como proyecto Maven.
 3. Correr los test
+4. Utilice IA para los test por que me salian muchos errores que solo con la IA pude solucionar
 
 ##  Endpoints disponibles
 

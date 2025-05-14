@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Vg2EF-QZ)
 # 🚀 Trabajo Práctico: Sistema de Gestión de Biblioteca con Spring Framework
 
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.4.5-green)
@@ -118,8 +119,24 @@ Desarrollar un sistema de gestión de biblioteca utilizando Spring Framework, im
 > 💡 **Nota**: Esta estimación considera la experiencia adquirida en trabajos anteriores y la complejidad de implementar una arquitectura en capas con Spring Framework. El tiempo se ha ajustado considerando que no se requiere implementación de persistencia real.
 
 ## 👨‍🎓 Información del Alumno
-- **Nombre y Apellido**: [Nombre y Apellido del Alumno]
-- **Legajo**: [Número de Legajo]
+- **Nombre y Apellido**: Federico Davara
+- **Legajo**: 59098
+
+## ️ Cómo correr el proyecto
+
+1. Clonar el repositorio:
+2. Importar en tu IDE favorito como proyecto Maven.
+3. Correr los test
+4. Utilice IA para los test por que me salian muchos errores que solo con la IA pude solucionar
+
+##  Endpoints disponibles
+
+- `GET /api/libros`
+- `POST /api/libros`
+- `PUT /api/libros/{id}`
+- `DELETE /api/libros/{id}`
+- (lo mismo para usuarios y préstamos)
+
 
 ## 📋 Requisitos Previos
 

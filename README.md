@@ -119,8 +119,23 @@ Desarrollar un sistema de gestión de biblioteca utilizando Spring Framework, im
 > 💡 **Nota**: Esta estimación considera la experiencia adquirida en trabajos anteriores y la complejidad de implementar una arquitectura en capas con Spring Framework. El tiempo se ha ajustado considerando que no se requiere implementación de persistencia real.
 
 ## 👨‍🎓 Información del Alumno
-- **Nombre y Apellido**: [Nombre y Apellido del Alumno]
-- **Legajo**: [Número de Legajo]
+- **Nombre y Apellido**: Federico Davara
+- **Legajo**: 59098
+
+## ️ Cómo correr el proyecto
+
+1. Clonar el repositorio:
+2. Importar en tu IDE favorito como proyecto Maven.
+3. Correr los test
+
+##  Endpoints disponibles
+
+- `GET /api/libros`
+- `POST /api/libros`
+- `PUT /api/libros/{id}`
+- `DELETE /api/libros/{id}`
+- (lo mismo para usuarios y préstamos)
+
 
 ## 📋 Requisitos Previos
 
